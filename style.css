@@ -591,6 +591,14 @@ iframe{
   gap: 30px;
   grid-template-columns:repeat(2,1fr);
 }
+.footer {
+ 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+
 
    
 }
