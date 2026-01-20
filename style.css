@@ -377,6 +377,56 @@ hr{
     display: flex;
     gap: 5px;
 }
+.host{
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+.host h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.host-con{
+  max-width: 1200px;
+  padding: 40px;
+  background-color: #351165;
+  display: flex;
+  margin: 0 auto;
+  border: none;
+  border-radius: 40px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.icon-con{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+   
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+     color:rgba(255, 255, 255, 0.6);
+     margin-bottom: 16px;
+
+}
 
 
 
@@ -479,6 +529,23 @@ hr {
 }
 iframe{
     width: 100%;
+}
+
+.host{
+    padding: 20px;
+}
+.host h2{
+    font-size: 32px;
+}
+.host-con{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon-con{
+    align-items: center;
+    justify-content: center;
 }
 
    
