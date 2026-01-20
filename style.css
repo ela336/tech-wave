@@ -427,6 +427,40 @@ hr{
      margin-bottom: 16px;
 
 }
+.footer{
+    background: url('./assets/footer-bg.png');
+    max-width: 1600px;
+    height: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+   margin-left: 100px;
+}
+.foot-icon{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.foot-icon .icons{
+   display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer  p{
+    color:rgba(255, 255, 255, 0.6);
+}
+
+
 
 
 
