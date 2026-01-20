@@ -258,7 +258,7 @@ hr{
     font-weight: 400;
      color: rgba(255, 255, 255, 0.8);
 }
-.techwave{
+.tech-wave{
     padding: 200px 120px;
     background-color: #230E3D;
    
@@ -286,7 +286,7 @@ hr{
     margin-top: 20px;
 }
 
-.techwave h2{
+.tech-wave h2{
     font-size: 48px;
     font-weight: bold;
     color: #FFFFFF;
@@ -327,6 +327,56 @@ hr{
        padding: 110px 40px;
 }
 
+.feature{
+    
+    background-color: #1A0B2E;
+    padding:120px 200px
+}
+.card-con{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.feature h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card{
+    height: 440px;
+    width: 380px;
+    background-color: #250D44;
+    border: none;
+    border-radius: 10px;
+     padding: 5px;
+     display: flex;
+    flex-direction: column;
+    
+    
+    gap: 20px;
+    
+    
+}
+.card h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.6);
+}
+.card h4{
+    color: #00FF88;
+    display: flex;
+    gap: 5px;
+}
 
 
 
@@ -405,11 +455,30 @@ hr {
     gap: 15px;
    
 }
-.techwave{
+.tech-wave{
     padding: 15px 15px;
    
    
 
+}
+.feature {
+  
+  padding: 30px 20px;
+}
+.feature h2 {
+  font-size: 32px;
+  
+  margin-bottom: 24px;
+}
+.card-con{
+    flex-direction: column;
+}
+.card{
+    width:100%;
+    
+}
+iframe{
+    width: 100%;
 }
 
    
