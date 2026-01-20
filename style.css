@@ -581,6 +581,16 @@ iframe{
     align-items: center;
     justify-content: center;
 }
+.footer-div {
+ 
+  gap: 15px;
+  margin-left: 20px;
+}
+.foot-icon {
+  display: grid;
+  gap: 30px;
+  grid-template-columns:repeat(2,1fr);
+}
 
    
 }
