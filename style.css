@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+  font-family: "Inter", sans-serif;
+ 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav{
+    width: 100%;
+    max-width: 1600px;
+    height: 92px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     background-color: #1A0B2E;
+}
+
+nav ul{
+    display: flex;
+    gap:45px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav ul li{
+    list-style: none;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:500;
+    color: #FFFFFF;
+    
+   
+}
+
+.tech{
+    color: #FFFFFF;
+    font-size:45px;
+  font-weight: bold;
+    
+}
+
+.wave {
+  background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 50%, #9100F8 100%);
+   -webkit-background-clip: text; 
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:45px;
+  font-weight: bold;
+  
+}
+
+header nav button
+{
+    height: 44px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    gap:7px;
+    justify-content: center;
+   
+    padding: 16px 12px;
+    border: none;
+    border-radius: 32px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to top right,#F7E93F 0%, #FB09B4 50%, #9100F8 100%);
+}
+ .burger{
+  display: none;
+}
+
+.banner{
+    background:url('./assets/hero-bg.png');
+     background-size: cover;
+  background-position: center;
+    max-width: 1600px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-img{
+  position: relative;   
+  width: 350px;         
+  height: 350px;        
+ margin-top: 110px;
+  bottom: 100px;
+
+}
+.banner-img .circle{
+  position: absolute;
+  
+  z-index: 1;
+  width: 100%;  
+  height: auto;
+}
+.banner-img .micro{
+   position: absolute;
+  top: 80px;     
+  left: 115px;    
+  z-index: 2;
+ 
+  height: auto;
+}
+
+.banner-img .new{
+   position: absolute;
+    z-index: 3;
+    left: 230px;
+    height: 30px;
+    width: 60px;
+    background-color: #00FF88;
+    padding: 8px 18px 6px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1000px;
+    text-align: center;
+}
+
+
+.banner-text{
+    height: 168px;
+    width:34%;
+    max-width: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.banner-text h2{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: auto;
+    color: #FFFFFF;
+}
+.banner-text p{
+    font-size: 16px;
+    font-weight: 400;
+   
+   color: rgba(255, 255, 255, 0.8);
+
+}
+.banner-text .btn{
+    gap: 10px;
+    display: flex;
+}
+.banner-text .btn1
+{
+    height: 44px;
+    width: 201px;
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 50%, #9100F8 100%);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap:10px;
+
+}
+.banner-text .btn2
+{
+    height: 44px;
+    width: 147px;
+    background-color: inherit;
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+
+}
+.banner-text .btn2 p{
+    color: #00FF88;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: inline;
+    }
+
+   
+}
